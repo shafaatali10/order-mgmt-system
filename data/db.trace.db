@@ -1,0 +1,39 @@
+2020-09-06 18:10:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ORDER[*] (ORDER_ID INTEGER NOT NULL, CUSTOMER_NAME VARCHAR(255), ORDER_DATE TIMESTAMP, SHIPPING_ADDRESS VARCHAR(255), TOTAL FLOAT, PRIMARY KEY (ORDER_ID))"; expected "identifier"; SQL statement:
+create table order (order_id integer not null, customer_name varchar(255), order_date timestamp, shipping_address varchar(255), total float, primary key (order_id)) [42001-200]
+2020-09-06 18:10:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER TABLE ORDER_ITEM ADD CONSTRAINT FKT6WV8M7ESHKSP5KP8W4B2D1DM FOREIGN KEY (ORDER_ID) REFERENCES ORDER[*]"; expected "identifier"; SQL statement:
+alter table order_item add constraint FKt6wv8m7eshksp5kp8w4b2d1dm foreign key (order_id) references order [42001-200]
+2020-09-06 18:13:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ORDER[*] (ORDER_ID INTEGER NOT NULL, CUSTOMER_NAME VARCHAR(255), ORDER_DATE TIMESTAMP, SHIPPING_ADDRESS VARCHAR(255), TOTAL FLOAT, PRIMARY KEY (ORDER_ID))"; expected "identifier"; SQL statement:
+create table order (order_id integer not null, customer_name varchar(255), order_date timestamp, shipping_address varchar(255), total float, primary key (order_id)) [42001-200]
+2020-09-06 18:13:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER TABLE ORDER_ITEM ADD CONSTRAINT FKT6WV8M7ESHKSP5KP8W4B2D1DM FOREIGN KEY (ORDER_ID) REFERENCES ORDER[*]"; expected "identifier"; SQL statement:
+alter table order_item add constraint FKt6wv8m7eshksp5kp8w4b2d1dm foreign key (order_id) references order [42001-200]
+2020-09-06 18:15:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ORDER[*] (ORDER_ID INTEGER NOT NULL, CUSTOMER_NAME VARCHAR(255), ORDER_DATE TIMESTAMP, SHIPPING_ADDRESS VARCHAR(255), TOTAL FLOAT, PRIMARY KEY (ORDER_ID))"; expected "identifier"; SQL statement:
+create table order (order_id integer not null, customer_name varchar(255), order_date timestamp, shipping_address varchar(255), total float, primary key (order_id)) [42001-200]
+2020-09-06 18:15:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER TABLE ORDER_ITEM ADD CONSTRAINT FKT6WV8M7ESHKSP5KP8W4B2D1DM FOREIGN KEY (ORDER_ID) REFERENCES ORDER[*]"; expected "identifier"; SQL statement:
+alter table order_item add constraint FKt6wv8m7eshksp5kp8w4b2d1dm foreign key (order_id) references order [42001-200]
+2020-09-06 18:16:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ORDER[*] (ORDER_ID INTEGER NOT NULL, CUSTOMER_NAME VARCHAR(255), ORDER_DATE TIMESTAMP, SHIPPING_ADDRESS VARCHAR(255), TOTAL FLOAT, PRIMARY KEY (ORDER_ID))"; expected "identifier"; SQL statement:
+create table order (order_id integer not null, customer_name varchar(255), order_date timestamp, shipping_address varchar(255), total float, primary key (order_id)) [42001-200]
+2020-09-06 18:16:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER TABLE ORDER_ITEM ADD CONSTRAINT FKT6WV8M7ESHKSP5KP8W4B2D1DM FOREIGN KEY (ORDER_ID) REFERENCES ORDER[*]"; expected "identifier"; SQL statement:
+alter table order_item add constraint FKt6wv8m7eshksp5kp8w4b2d1dm foreign key (order_id) references order [42001-200]
+2020-09-06 18:19:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ORDER[*] (ORDER_ID INTEGER NOT NULL, CUSTOMER_NAME VARCHAR(255), ORDER_DATE TIMESTAMP, SHIPPING_ADDRESS VARCHAR(255), TOTAL FLOAT, PRIMARY KEY (ORDER_ID))"; expected "identifier"; SQL statement:
+create table order (order_id integer not null, customer_name varchar(255), order_date timestamp, shipping_address varchar(255), total float, primary key (order_id)) [42001-200]
+2020-09-06 18:19:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER TABLE ORDER_ITEM ADD CONSTRAINT FKT6WV8M7ESHKSP5KP8W4B2D1DM FOREIGN KEY (ORDER_ID) REFERENCES ORDER[*]"; expected "identifier"; SQL statement:
+alter table order_item add constraint FKt6wv8m7eshksp5kp8w4b2d1dm foreign key (order_id) references order [42001-200]
+2020-09-06 18:20:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE ORDER[*] (ORDER_ID INTEGER NOT NULL, CUSTOMER_NAME VARCHAR(255), ORDER_DATE TIMESTAMP, SHIPPING_ADDRESS VARCHAR(255), TOTAL FLOAT, PRIMARY KEY (ORDER_ID))"; expected "identifier"; SQL statement:
+create table order (order_id integer not null, customer_name varchar(255), order_date timestamp, shipping_address varchar(255), total float, primary key (order_id)) [42001-200]
+2020-09-06 18:20:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER TABLE ORDER_ITEM ADD CONSTRAINT FKOMCGN39RPRA8EPFAE75BU13E5 FOREIGN KEY (ORDER_ORDER_ID) REFERENCES ORDER[*]"; expected "identifier"; SQL statement:
+alter table order_item add constraint FKomcgn39rpra8epfae75bu13e5 foreign key (order_order_id) references order [42001-200]
+2020-09-06 18:20:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "ALTER TABLE ORDER_ITEM ADD CONSTRAINT FKT6WV8M7ESHKSP5KP8W4B2D1DM FOREIGN KEY (ORDER_ID) REFERENCES ORDER[*]"; expected "identifier"; SQL statement:
+alter table order_item add constraint FKt6wv8m7eshksp5kp8w4b2d1dm foreign key (order_id) references order [42001-200]
